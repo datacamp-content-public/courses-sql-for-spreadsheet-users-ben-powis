@@ -44,7 +44,7 @@ This is an example exercise.
 
 ---
 
-## Insert exercise title here
+## Filtering and joining
 
 ```yaml
 type: VideoExercise
