@@ -15,8 +15,37 @@ Let's drill down to single campaign and see if we can make some decisions on it'
 
 `@pre_exercise_code`
 ```{python}
-connect('postgresql', 'database')
+connect('postgresql', 'sample')
 set_options(visible_tables = ['sample'])
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 77ea0690c2
+xp: 100
+```
+
+`@instructions`
+
+
+`@hint`
+
+
+`@sample_code`
+```{python}
+
+```
+
+`@solution`
+```{python}
+
+```
+
+`@sct`
+```{python}
+
 ```
 
 ---
