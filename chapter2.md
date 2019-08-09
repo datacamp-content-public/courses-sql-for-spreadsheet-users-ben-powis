@@ -62,6 +62,48 @@ FROM sample
 
 ```
 
+***
+
+```yaml
+type: NormalExercise
+key: e00760502e
+```
+
+`@instructions`
+Hm, interesting, now let's look at the ratio between impressions and clicks.
+
+`@hint`
+
+
+`@sample_code`
+```{python}
+SELECT 
+date,
+campaign_name,
+sum(impressions),
+sum(clicks),
+# create 'click_rate'
+___/___ AS click_rate
+FROM sample
+```
+
+`@solution`
+```{python}
+SELECT 
+date,
+campaign_name,
+sum(impressions),
+sum(clicks),
+# create 'click_rate'
+sum(clicks)/sum(impressions) AS click_rate
+FROM sample
+```
+
+`@sct`
+```{python}
+
+```
+
 ---
 
 ## Insert exercise title here
