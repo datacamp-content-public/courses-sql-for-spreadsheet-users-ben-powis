@@ -40,7 +40,7 @@ xp: 100
 
 `@solution`
 ```{python}
-
+select * from sample
 ```
 
 `@sct`
