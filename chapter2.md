@@ -15,7 +15,7 @@ Let's drill down to single campaign and see if we can make some decisions on it'
 
 `@pre_exercise_code`
 ```{python}
-connect('postgresql', 'sample')
+connect('postgresql', 'database')
 set_options(visible_tables = ['sample'])
 ```
 
