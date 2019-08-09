@@ -28,19 +28,33 @@ xp: 100
 ```
 
 `@instructions`
-
+We can see how many clicks and sales our ads generated, but it would be helpful to see this ratio in a single column, let's add a conversion rate to our results!
 
 `@hint`
 
 
 `@sample_code`
 ```{python}
-
+SELECT 
+date,
+campaign_name,
+sum(clicks),
+sum(conversions),
+# create 'conversion_rate'
+sum(conversions)/sum(clicks) AS conversion_rate
+FROM sample
 ```
 
 `@solution`
 ```{python}
-select * from sample
+SELECT 
+date,
+campaign_name,
+sum(clicks),
+sum(conversions),
+# create 'conversion_rate'
+sum(conversions)/sum(clicks) AS conversion_rate
+FROM sample
 ```
 
 `@sct`
