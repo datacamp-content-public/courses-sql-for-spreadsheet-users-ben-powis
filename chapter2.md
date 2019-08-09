@@ -41,7 +41,7 @@ campaign_name,
 sum(clicks),
 sum(conversions),
 # create 'conversion_rate'
-sum(conversions)/sum(clicks) AS conversion_rate
+sum(___)/sum(___) AS conversion_rate
 FROM sample
 ```
 
